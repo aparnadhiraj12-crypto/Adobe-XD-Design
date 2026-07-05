@@ -1,0 +1,53 @@
+:root {
+  --purple-900: #1e0a4a;
+  --purple-700: #4a1fb8;
+  --purple-600: #6c2bd9;
+  --purple-500: #6c25ff;
+  --purple-100: #e5d9ff;
+  --purple-50: #f3edff;
+  --gray-900: #1a1a1a;
+  --gray-500: #6b7280;
+  --gray-300: #d1d5db;
+  --gray-200: #e5e7eb;
+  --gray-100: #f4f5f7;
+  --gray-50: #fafafb;
+  --red: #eb5757;
+  --white: #ffffff;
+
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--gray-100);
+  color: var(--gray-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
