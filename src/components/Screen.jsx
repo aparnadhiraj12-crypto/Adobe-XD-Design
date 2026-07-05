@@ -3,5 +3,5 @@ export default function Screen({ children }) {
     <div className="screen-outer">
       <div className="screen">{children}</div>
     </div>
-  )
+  );
 }
